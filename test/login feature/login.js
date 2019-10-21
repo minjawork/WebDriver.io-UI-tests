@@ -2,8 +2,6 @@ import LoginPage from '../pageobject/login.page';
 import SuccessPage from '../pageobject/success.page';
 import FailPage from '../pageobject/fail.page';
 import { username, password, invalidUsername, invalidPassword } from '../credentials/credentials';
-import { expect } from 'chai';
-
 
 describe('Login test cases', function () {
   beforeEach(function () {
@@ -95,5 +93,4 @@ describe('Login test cases', function () {
     (FailPage.goBack).click();
     expect(browser.getUrl()).to.equal(loginPage);
   });
-
 });
