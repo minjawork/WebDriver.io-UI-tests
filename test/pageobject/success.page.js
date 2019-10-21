@@ -6,6 +6,7 @@ class SuccessPage extends Page {
   }
 
   get successfullString () { return $('//b[@id="info"]'); }
+  get loginSuccess () { return $('#info'); }
 }
 
 export default new SuccessPage();

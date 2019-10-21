@@ -9,5 +9,7 @@ class LoginPage extends Page {
   get pass () { return $('#password'); }
   get button () { return $('#submit'); }
   get successfullString () { return $('//b[@id="info"]'); }
+  get h2LoginPage () { return $('//h2[.="Test Automation Login Page"]'); }
+  get info () { return $('.valid'); }
 }
 export default new LoginPage();
