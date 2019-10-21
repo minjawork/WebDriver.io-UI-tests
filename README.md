@@ -2,7 +2,7 @@ Login Tests
 =========================
 
 **Precondition** </br>
-In order to use webdriver.io framework, install node version ( at least node 10). </br>
+In order to use webdriver.io framework, install node ( at least node 10). </br>
 Node version can be checked using command: `node -v`
 
  **General**
