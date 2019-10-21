@@ -1,13 +1,13 @@
 Login Tests
 =========================
 
-**Precondition**
-In order to use webdriver.io framework, install node version ( at least node 10).
+**Precondition** </br>
+In order to use webdriver.io framework, install node version ( at least node 10). </br>
 Node version can be checked using command: `node -v`
 
  **General**
 
-When cloning repo, please run **npm install** inside root directory folder.
+When cloning repo, please run **npm install** inside root directory folder.</br>
 All test scripts should be placed in `./test` folder or subdirectories.
 
 **Run e2e test scripts**
